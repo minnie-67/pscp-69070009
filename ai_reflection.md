@@ -22,7 +22,7 @@ AI may help check grammar, formatting, or clarity after you have already written
 
 | Item | Answer |
 |---|---|
-| OJ problem number/title | kantida |
+| OJ problem number/title |  |
 | OJ submission ID, if submitted |  |
 | OJ status | Pass / Not Pass / Not Submit |
 
