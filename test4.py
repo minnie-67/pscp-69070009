@@ -1,3 +1,5 @@
+"""Program to generate a password based on user input."""
+
 name = input()
 surname = input()
 age = input()
