@@ -1,9 +1,9 @@
 """กระต่ายน้อยจ่ายตลาด"""
 carrot, cabbage, tomato = map(int, input().split())
 
-carrot_price = 10
-cabbage_price = 25
-tomato_price = 3
+CARROT_PRICE = 10
+CABBAGE_PRICE = 25
+TOMATO_PRICE = 3
 
-total_price = (carrot * carrot_price) + (cabbage * cabbage_price) + (tomato * tomato_price)
+total_price = (carrot * CARROT_PRICE) + (cabbage * CABBAGE_PRICE) + (tomato * TOMATO_PRICE)
 print(total_price)
