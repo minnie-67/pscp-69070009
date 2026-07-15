@@ -1,3 +1,4 @@
+"""Heron of Alexandria."""
 import math
 a = float(input())
 b = float(input())
