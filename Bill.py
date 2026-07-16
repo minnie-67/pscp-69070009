@@ -1,6 +1,6 @@
 """Bill."""
 price = float(input())
-sevice = 0
+service = 0
 
 if price < 500:
     service = 50
