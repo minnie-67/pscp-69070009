@@ -13,7 +13,7 @@ elif month in [10, 11, 12]:
 
 if not month % 3 and day >= 21:
     if season == "winter":
-       season = "spring"
+        season = "spring"
     elif season == "spring":
         season = "summer"
     elif season == "summer":
