@@ -2,12 +2,12 @@
 x = int(input())
 y = int(input())
 
-if not x and y:
-    print("O")
+if not x and not y:
+    print("o")
 elif not x:
-    print("X")
+    print("y")
 elif not y:
-    print("Y")
+    print("x")
 elif x > 0 and y > 0:
     print("Q1")
 elif x < 0 and y > 0:
