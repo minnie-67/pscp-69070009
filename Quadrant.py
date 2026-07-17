@@ -2,11 +2,11 @@
 x = int(input())
 y = int(input())
 
-if x == 0 and y == 0:
+if not x and y:
     print("O")
-elif x == 0:
+elif not x:
     print("X")
-elif y == 0:
+elif not y:
     print("Y")
 elif x > 0 and y > 0:
     print("Q1")
