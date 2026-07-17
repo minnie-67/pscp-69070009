@@ -3,16 +3,16 @@ x = int(input())
 y = int(input())
 
 if not x and not y:
-    print("o")
+    print("O")
 elif not x:
-    print("y")
+    print("Y")
 elif not y:
-    print("x")
+    print("X")
 elif x > 0 and y > 0:
     print("Q1")
 elif x < 0 and y > 0:
     print("Q2")
 elif x < 0 and y < 0:
     print("Q3")
-else:
+elif x > 0 and y < 0:
     print("Q4")
