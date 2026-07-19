@@ -7,6 +7,6 @@ while floor  ** 2 < x:
 far = (floor**2) - x
 ROOM = 2*(floor) - 1
 if not far % 2:
-    print(room - 1)
+    print(ROOM - 1)
 else :
-    print(room - 2)
+    print(ROOM - 2)
