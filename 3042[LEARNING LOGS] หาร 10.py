@@ -1,6 +1,6 @@
 """หาร10"""
 num = int(input())
 
-ten = (num // 10) * 10
-for i in range(ten, -1, -10):
+ten = (num // 10) * 10 #เพื่อให้มันลงท้ายด้วย0
+for i in range(ten, -1, -10): #-1คือให้สิ้นสุดที่0แต่ไม่ถึง-1
     print(i, end = " ")
