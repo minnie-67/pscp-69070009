@@ -2,12 +2,12 @@
 price = int(input())
 service = 0
 
-if price < 500:
-    service = 50
+if price <= 0:
+    service = 0
 elif  price > 10000:
     service = 1000
-elif price <= 0:
-    service = 0
+elif  price < 500:
+    service = 50
 else:
     service = price / 10
 
