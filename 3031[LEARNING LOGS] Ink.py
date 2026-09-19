@@ -6,6 +6,6 @@ def main():
     for _ in range(people):
         x, y = map(int, input().split())
         area = 3.1416 * (x ** 2 + y ** 2)
-        time = math.ceil(area / speed)
-        print(time)
+        time = math.ceil(area / speed) #math ceilคือการปัดขึ้นเป้นจำนวนเต็ม
+    print(time)
 main()
